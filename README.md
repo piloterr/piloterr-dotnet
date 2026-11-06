@@ -540,6 +540,20 @@ using var client = new PiloterrClient(new PiloterrClientOptions
 | `ZoroProductAsync` | GET / POST `/v2/zoro/product` | Get a Zoro product page: title, brand, USD price, Zoro number, manufacturer number, images, and specifications. |
 | `ZoroSearchAsync` | GET / POST `/v2/zoro/search` | Search Zoro by keyword or category URL. Returns product cards with USD price, brand, Zoro number, and pagination. |
 
+## All Piloterr SDKs
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@piloterr/sdk`](https://www.npmjs.com/package/@piloterr/sdk) | `npm install @piloterr/sdk` |
+| Python | [`piloterr`](https://pypi.org/project/piloterr/) | `pip install piloterr` |
+| Go | [`piloterr-go`](https://pkg.go.dev/github.com/piloterr/piloterr-go) | `go get github.com/piloterr/piloterr-go` |
+| .NET | [`Piloterr`](https://www.nuget.org/packages/Piloterr) | `dotnet add package Piloterr` |
+| Ruby | [`piloterr`](https://rubygems.org/gems/piloterr) | `gem install piloterr` |
+| PHP | [`piloterr/sdk`](https://packagist.org/packages/piloterr/sdk) | `composer require piloterr/sdk` |
+| Java | [`piloterr-java`](https://github.com/piloterr/piloterr-java) | build from source, see its README |
+| CLI | [`@piloterr/cli`](https://www.npmjs.com/package/@piloterr/cli) | `npm install -g @piloterr/cli` |
+| MCP server | [`@piloterr/mcp`](https://www.npmjs.com/package/@piloterr/mcp) | `npx -y @piloterr/mcp` |
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
