@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>Piloterr</AssemblyName>
+    <RootNamespace>Piloterr</RootNamespace>
+    <PackageId>Piloterr</PackageId>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Title>Piloterr .NET SDK</Title>
+    <Authors>Piloterr</Authors>
+    <Company>Piloterr</Company>
+    <Copyright>Copyright (c) 2026 Piloterr</Copyright>
+    <Description>Official .NET SDK for the Piloterr web scraping API.</Description>
+    <PackageTags>web-scraping;scraper-api;data-extraction;scraping;api;sdk;piloterr</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://www.piloterr.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/piloterr/piloterr-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Link="README.md" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" Link="LICENSE" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Piloterr.Tests" />
+  </ItemGroup>
+</Project>
